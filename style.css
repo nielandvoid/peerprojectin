@@ -196,30 +196,16 @@ section {
 
 .steps {
   list-style-type: none;
-  counter-reset: steps-counter;
+  margin-left: 0;
+  margin-bottom: 32px;
 }
 
 .steps li {
-  position: relative;
-  padding-left: 48px;
-  margin-bottom: 24px;
-}
-
-.steps li::before {
-  counter-increment: steps-counter;
-  content: counter(steps-counter);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 32px;
-  height: 32px;
-  background-color: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  border-left: 3px solid var(--border);
+  padding-left: 16px;
   color: var(--text-secondary);
 }
 
@@ -231,16 +217,7 @@ section {
   color: var(--text-secondary);
 }
 
-.communities {
-  margin-top: 48px;
-  text-align: center;
-  color: var(--text-secondary);
-}
 
-.communities a {
-  color: var(--text-primary);
-  text-decoration: underline;
-}
 
 /* Apply Section */
 .apply-section {
