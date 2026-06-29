@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap');
 
 :root {
   --bg: #1E1E1E;
@@ -68,8 +68,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
+  font-family: 'Geist', sans-serif;
+  font-weight: 400;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -328,18 +328,14 @@ footer {
 .footer-logo {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 12px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
-.footer-logo svg {
-  width: 32px;
-  height: 32px;
-  fill: var(--text-primary);
+.footer-banner {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  margin-bottom: -72px;
 }
 
 .footer-links {
