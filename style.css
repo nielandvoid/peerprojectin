@@ -24,6 +24,7 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   font-size: 16px;
+  text-transform: lowercase;
 }
 
 h1, h2, h3, h4 {
@@ -172,11 +173,6 @@ section {
   border-radius: 8px;
   padding: 32px;
   text-align: center;
-  transition: transform 150ms ease;
-}
-
-.track-card:hover {
-  transform: translateY(-4px);
 }
 
 .track-card h3 {
