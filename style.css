@@ -358,4 +358,8 @@ footer {
   .nav-logo span {
     display: none; /* Hide wordmark on mobile */
   }
+
+  .footer-banner {
+    margin-bottom: -20px;
+  }
 }
