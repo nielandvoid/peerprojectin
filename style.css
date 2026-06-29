@@ -74,10 +74,10 @@ nav {
   text-transform: uppercase;
 }
 
-.nav-logo svg {
-  width: 32px;
-  height: 32px;
-  fill: var(--text-primary);
+.nav-logo-img {
+  height: 38px;
+  width: auto;
+  display: block;
 }
 
 .nav-apply-btn {
