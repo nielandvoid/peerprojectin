@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Geist:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
   --bg: #1E1E1E;
@@ -370,4 +370,103 @@ footer {
   .footer-banner {
     margin-bottom: 0px;
   }
+}
+
+/* Prologue Typewriter Badge */
+.prologue-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  min-height: 24px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.bracket-left,
+.bracket-right {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid transparent;
+  color: var(--text-secondary);
+  user-select: none;
+}
+
+.bracket-left {
+  width: 0;
+  animation: 
+    type-left 5s steps(1) infinite,
+    cursor-left 5s infinite;
+}
+
+.bracket-right {
+  width: 0;
+  animation: 
+    type-right 5s steps(1) infinite,
+    cursor-right 5s infinite;
+}
+
+.prologue-word {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  border-right: 2px solid transparent;
+  animation: 
+    type-word 5s steps(8) infinite,
+    cursor-word 5s infinite;
+}
+
+/* Animations */
+@keyframes type-left {
+  0% { width: 0; }
+  6%, 94% { width: 1ch; }
+  98%, 100% { width: 0; }
+}
+
+@keyframes type-right {
+  0%, 6% { width: 0; }
+  12%, 92% { width: 1ch; }
+  96%, 100% { width: 0; }
+}
+
+@keyframes type-word {
+  0%, 18% { width: 0; }
+  48%, 80% { width: 8ch; }
+  90%, 100% { width: 0; }
+}
+
+/* Cursor Blink Animations */
+@keyframes cursor-left {
+  0%, 3% { border-right-color: var(--text-secondary); }
+  4%, 100% { border-right-color: transparent; }
+}
+
+@keyframes cursor-right {
+  0%, 5% { border-right-color: transparent; }
+  6%, 9% { border-right-color: var(--text-secondary); }
+  10%, 100% { border-right-color: transparent; }
+}
+
+@keyframes cursor-word {
+  0%, 14% { border-right-color: transparent; }
+  15%, 19% { border-right-color: var(--text-secondary); }
+  20%, 24% { border-right-color: transparent; }
+  25%, 29% { border-right-color: var(--text-secondary); }
+  30%, 34% { border-right-color: transparent; }
+  35%, 39% { border-right-color: var(--text-secondary); }
+  40%, 44% { border-right-color: transparent; }
+  45%, 49% { border-right-color: var(--text-secondary); }
+  50%, 54% { border-right-color: transparent; }
+  55%, 59% { border-right-color: var(--text-secondary); }
+  60%, 64% { border-right-color: transparent; }
+  65%, 69% { border-right-color: var(--text-secondary); }
+  70%, 74% { border-right-color: transparent; }
+  75%, 79% { border-right-color: var(--text-secondary); }
+  80%, 84% { border-right-color: transparent; }
+  85%, 89% { border-right-color: var(--text-secondary); }
+  90%, 100% { border-right-color: transparent; }
 }
