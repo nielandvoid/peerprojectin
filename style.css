@@ -349,6 +349,14 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding: 60px 0 40px;
+  }
+
+  .prologue-container {
+    margin-bottom: 24px;
+  }
+
   .hero h1 {
     font-size: 1.85rem;
     line-height: 1.3;
