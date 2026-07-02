@@ -428,7 +428,7 @@ footer {
   }
 
   .nav-logo span {
-    display: none; /* Hide wordmark on mobile */
+    display: none;
   }
 
   .footer-banner {
