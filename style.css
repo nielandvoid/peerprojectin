@@ -166,10 +166,14 @@ section {
   scroll-margin-top: 96px;
 }
 
+#tracks {
+  padding-bottom: 90px;
+}
+
 .section-title {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 
@@ -249,6 +253,10 @@ section {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 60px 0;
+}
+
+.apply-section .section-title {
+  margin-bottom: 32px;
 }
 
 .tabs {
