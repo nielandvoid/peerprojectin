@@ -163,12 +163,13 @@ nav {
 
 section {
   padding: 80px 0;
+  scroll-margin-top: 96px;
 }
 
 .section-title {
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 
@@ -247,6 +248,7 @@ section {
   background-color: transparent;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  padding: 60px 0;
 }
 
 .tabs {
@@ -258,7 +260,7 @@ section {
   padding: 4px;
   border-radius: 99px;
   width: fit-content;
-  margin: 0 auto 48px;
+  margin: 0 auto 32px;
 }
 
 .tab-btn {
