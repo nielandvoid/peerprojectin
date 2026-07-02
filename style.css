@@ -358,6 +358,7 @@ footer {
 
 .footer-communities {
   color: var(--text-secondary);
+  text-transform: none;
 }
 
 .footer-communities a {
@@ -366,6 +367,13 @@ footer {
 
 .footer-communities a:hover {
   color: var(--text-primary);
+}
+
+.footer-copyright {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 32px;
+  opacity: 0.8;
 }
 
 /* Responsive */
