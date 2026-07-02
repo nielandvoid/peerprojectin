@@ -505,7 +505,7 @@ footer {
 
 @keyframes type-word {
   0%, 18% { width: 0; }
-  48%, 80% { width: 8ch; }
+  48%, 80% { width: 8.2ch; }
   90%, 100% { width: 0; }
 }
 
