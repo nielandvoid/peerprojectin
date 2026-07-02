@@ -77,8 +77,8 @@ nav {
 .nav-logo {
   font-family: 'Geist', sans-serif;
   font-weight: 400;
-  font-size: 0.85rem;
-  letter-spacing: 0.2em;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--text-primary);
 }
