@@ -31,6 +31,10 @@ body {
   text-transform: lowercase;
 }
 
+.text-titlecase {
+  text-transform: none;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
