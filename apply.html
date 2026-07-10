@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply - The Peer Project</title>
+    <meta name="description" content="free, student-run peer mentorship programme - because the best guidance comes from people who've recently walked the same path.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://peerproject.in/apply.html">
+    <meta property="og:title" content="Apply - The Peer Project">
+    <meta property="og:description" content="free, student-run peer mentorship programme - because the best guidance comes from people who've recently walked the same path.">
+    <meta property="og:image" content="https://peerproject.in/tpp_themed_banner.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Apply - The Peer Project">
+    <meta name="twitter:description" content="free, student-run peer mentorship programme - because the best guidance comes from people who've recently walked the same path.">
+    <meta name="twitter:image" content="https://peerproject.in/tpp_themed_banner.png">
+
+    <meta name="theme-color" content="#1E1E1E">
+
+    <link rel="icon" type="image/svg+xml" href="navbar_tpp.svg">
+    <link rel="stylesheet" href="css/apply.css">
+</head>
+<body class="apply-page">
+    <div class="apply-container">
+
+        <a href="index.html" class="back-link">[back]</a>
+
+        <header class="apply-header">
+            <img src="tpp_themed_banner.png" alt="The Peer Project Logo" class="apply-banner">
+            <p class="info-text">applications are reviewed by our team before matching. all identity documents are kept private and are never shared with your mentor/mentee.</p>
+        </header>
+
+        <div class="role-toggle" id="roleToggle" role="tablist" aria-label="Choose application type" >
+            <button type="button" class="toggle-btn active" data-role="mentor" role="tab" aria-selected="true">[ Apply as Mentor ]</button>
+            <button type="button" class="toggle-btn" data-role="mentee" role="tab" aria-selected="false">[ Apply as Mentee ]</button>
+        </div>
+
+        <!-- MENTOR FORM -->
+        <form id="mentorForm" class="app-form" novalidate>
+            <p class="form-blurb">The Peer Project is a free, student-run mentorship initiative. Mentors are the backbone of it — thank you for stepping up. Your name, email, and verification documents are collected privately for safety purposes only, and are never shared with mentees. You'll interact with mentees under your chosen display name.</p>
+
+            <div class="form-group">
+                <label for="m_fullName">Full Name</label>
+                <input type="text" id="m_fullName" name="full_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="m_email">Email</label>
+                <input type="email" id="m_email" name="email" placeholder="username@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="m_status">Current Status</label>
+                <select id="m_status" name="current_status" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option value="College student">College student</option>
+                    <option value="12th passout">12th passout</option>
+                    <option value="10th passout">10th passout</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="m_college">College/Institution (if applicable)</label>
+                <span class="help-text">Write NA if not applicable.</span>
+                <input type="text" id="m_college" name="college_institution">
+            </div>
+
+            <div class="form-group">
+                <label>Track you want to mentor</label>
+                <span class="help-text">Select all that apply.</span>
+                <div class="checkbox-group" data-name="tracks">
+                    <label class="option-label"><input type="checkbox" name="tracks" value="Boards"> Boards</label>
+                    <label class="option-label"><input type="checkbox" name="tracks" value="Competitive — JEE/JEE Advanced"> Competitive — JEE/JEE Advanced</label>
+                    <label class="option-label"><input type="checkbox" name="tracks" value="Competitive — NEET"> Competitive — NEET</label>
+                    <label class="option-label"><input type="checkbox" name="tracks" value="Competitive — CUET"> Competitive — CUET</label>
+                    <label class="option-label"><input type="checkbox" name="tracks" value="Abroad"> Abroad</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="m_proof">Proof of eligibility (board marksheet, exam scorecard, or admit letter screenshot)</label>
+                <span class="help-text">Paste a link to your proof of eligibility — Google Drive, LinkedIn, or any public/shareable link. It is solely for verification and safety of mentees, and is strictly kept private.</span>
+                <input type="url" id="m_proof" name="proof_of_eligibility" placeholder="https://..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="m_reddit">Reddit username</label>
+                <span class="help-text">Optional — leave blank if you don't have an account.</span>
+                <input type="text" id="m_reddit" name="reddit_username">
+            </div>
+
+            <div class="form-group">
+                <label for="m_discord">Discord username</label>
+                <span class="help-text">Recommended — sessions happen on Discord. Leave blank if you don't have one yet, but you'll need a free account before Cohort 1 begins.</span>
+                <input type="text" id="m_discord" name="discord_username">
+            </div>
+
+            <div class="form-group">
+                <label for="m_displayName">Preferred display name for mentees</label>
+                <span class="help-text">You may use a pseudonym.</span>
+                <input type="text" id="m_displayName" name="display_name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Availability</label>
+                <span class="help-text">A session is a structured async (text-based) check-in on Discord — not a live conversation. Voice/video calls are entirely optional and only happen if both sides mutually agree. How many sessions can you commit to mentoring per month?</span>
+                <div class="radio-group" data-name="availability">
+                    <label class="option-label"><input type="radio" name="availability" value="1-2 sessions/month" required> 1-2 sessions/month</label>
+                    <label class="option-label"><input type="radio" name="availability" value="3-4 sessions/month"> 3-4 sessions/month</label>
+                    <label class="option-label"><input type="radio" name="availability" value="Flexible"> Flexible</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="m_why">Why do you want to mentor?</label>
+                <span class="help-text">e.g. "I want to give back after struggling with boards myself" / "I went through this process and want to make it easier for others" — keep it honest, no need to oversell.</span>
+                <textarea id="m_why" name="why_mentor" rows="4" data-word-limit="300" required></textarea>
+                <div class="word-count" data-counter-for="m_why">0 / 300 words</div>
+            </div>
+
+            <div class="form-group">
+                <label>Where did you hear about The Peer Project?</label>
+                <div class="radio-group" data-name="heard_from">
+                    <label class="option-label"><input type="radio" name="heard_from" value="r/CBSE" required> r/CBSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="r/ICSE"> r/ICSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="r/JEE"> r/JEE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Discord - r/CBSE"> Discord - r/CBSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Discord - r/ICSE"> Discord - r/ICSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Discord - r/JEE"> Discord - r/JEE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="X / Twitter"> X / Twitter</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Word of mouth"> Word of mouth</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Other"> Other</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="m_extra">Anything else relevant?</label>
+                <textarea id="m_extra" name="anything_else" rows="3" data-word-limit="200"></textarea>
+                <div class="word-count" data-counter-for="m_extra">0 / 200 words</div>
+            </div>
+
+            <button type="submit" class="submit-btn">[ Submit Mentor Application ]</button>
+        </form>
+
+        <!-- MENTEE FORM -->
+        <form id="menteeForm" class="app-form hidden" novalidate>
+            <p class="form-blurb">The Peer Project is a free, student-run mentorship initiative — no cost, ever. Choose a track below and tell us a bit about your goals. We'll match you with a verified mentor based on your responses. Submitting this form doesn't guarantee a match — we'll reach out via Discord or Reddit once mentor pairing is done. Your full name and email are collected privately for verification and safety purposes only, and are never shared with your mentor.</p>
+
+            <div class="form-group">
+                <label for="e_fullName">Full Name</label>
+                <input type="text" id="e_fullName" name="full_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="e_displayName">Preferred display name (shown to your mentor)</label>
+                <span class="help-text">Can be your Discord username or any name you're comfortable with. Your real name above is kept private for our records only.</span>
+                <input type="text" id="e_displayName" name="display_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="e_grade">Class / Grade</label>
+                <span class="help-text">e.g. "Class 11"</span>
+                <input type="text" id="e_grade" name="class_grade" required>
+            </div>
+
+            <div class="form-group">
+                <label for="e_reddit">Reddit username</label>
+                <span class="help-text">Optional — leave blank if you don't have an account.</span>
+                <input type="text" id="e_reddit" name="reddit_username">
+            </div>
+
+            <div class="form-group">
+                <label for="e_discord">Discord username</label>
+                <span class="help-text">Recommended — sessions happen on Discord. Leave blank if you don't have one yet, but you'll need to create a free account before matching begins.</span>
+                <input type="text" id="e_discord" name="discord_username">
+            </div>
+
+            <div class="form-group">
+                <label for="e_email">Email</label>
+                <span class="help-text">e.g. username@gmail.com / username@proton.me / username@outlook.com / etc.</span>
+                <input type="email" id="e_email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Track you're applying for</label>
+                <div class="radio-group" data-name="track">
+                    <label class="option-label"><input type="radio" name="track" value="Boards" required> Boards</label>
+                    <label class="option-label"><input type="radio" name="track" value="Competitive — JEE/NEET/CUET"> Competitive — JEE/NEET/CUET</label>
+                    <label class="option-label"><input type="radio" name="track" value="Abroad Admissions"> Abroad Admissions</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="e_help">What specifically do you want help with?</label>
+                <span class="help-text">e.g. "I struggle with time management across subjects" / "need strategy for Physics numericals" / "want guidance on writing a university SOP" — be as specific as you can, it helps us match you better.</span>
+                <textarea id="e_help" name="help_needed" rows="4" data-word-limit="300" required></textarea>
+                <div class="word-count" data-counter-for="e_help">0 / 300 words</div>
+            </div>
+
+            <div class="form-group">
+                <label>How much time can you commit per month?</label>
+                <span class="help-text">A session is a structured async (text-based) check-in on Discord — not a live conversation. Your mentor will post a check-in message or question, and you respond when you're ready, typically within 24–48 hours. There's no pressure to reply instantly. Voice/video calls are entirely optional and only happen if both sides mutually agree to one.</span>
+                <div class="radio-group" data-name="commitment">
+                    <label class="option-label"><input type="radio" name="commitment" value="1-2 sessions" required> 1-2 sessions</label>
+                    <label class="option-label"><input type="radio" name="commitment" value="3-4 sessions"> 3-4 sessions</label>
+                    <label class="option-label"><input type="radio" name="commitment" value="Flexible"> Flexible</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Where did you hear about The Peer Project?</label>
+                <div class="radio-group" data-name="heard_from">
+                    <label class="option-label"><input type="radio" name="heard_from" value="r/CBSE" required> r/CBSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="r/ICSE"> r/ICSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="r/JEE"> r/JEE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Discord - r/CBSE"> Discord - r/CBSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Discord - r/ICSE"> Discord - r/ICSE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Discord - r/JEE"> Discord - r/JEE</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="X / Twitter"> X / Twitter</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Word of mouth"> Word of mouth</label>
+                    <label class="option-label"><input type="radio" name="heard_from" value="Other"> Other</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="e_extra">Anything else we should know?</label>
+                <textarea id="e_extra" name="anything_else" rows="3" data-word-limit="200"></textarea>
+                <div class="word-count" data-counter-for="e_extra">0 / 200 words</div>
+            </div>
+
+            <button type="submit" class="submit-btn">[ Submit Mentee Application ]</button>
+        </form>
+
+        <!-- REVIEW STATE -->
+        <div id="reviewState" class="review-state hidden">
+            <p class="success-title" id="reviewTitle">[ review your application ]</p>
+            <p class="info-text">double check everything below before submitting. you can still go back and edit.</p>
+            <div id="reviewList" class="review-list"></div>
+            <div id="reviewError" class="review-error hidden"></div>
+            <div class="review-actions">
+                <button type="button" id="editFromReviewBtn" class="submit-btn secondary">[ edit response ]</button>
+                <button type="button" id="confirmSubmitBtn" class="submit-btn">[ confirm &amp; submit ]</button>
+            </div>
+        </div>
+
+        <!-- SUCCESS STATE -->
+        <div id="successState" class="success-state hidden">
+            <p class="success-title">[ application received ]</p>
+            <p class="info-text">thanks — your application has been submitted. we'll reach out via Discord or Reddit once matching is done.</p>
+            <details class="json-details">
+                <summary>view submitted data (JSON)</summary>
+                <pre id="jsonPreview" class="json-preview"></pre>
+            </details>
+            <button type="button" id="editAgainBtn" class="submit-btn secondary">[ submit another response ]</button>
+        </div>
+
+        <footer>
+            <div class="footer-links">
+                <a href="mailto:peerprojectin@gmail.com">peerprojectin@gmail.com</a>
+                <a href="https://x.com/peerprojectin" target="_blank">@peerprojectin on twitter / x</a>
+            </div>
+            <div class="footer-note">free // student-run // non-profit</div>
+            <div class="footer-copyright">&copy; 2026 peerproject.in. all rights reserved.</div>
+        </footer>
+    </div>
+
+    <script src="js/apply.js"></script>
+</body>
+</html>
