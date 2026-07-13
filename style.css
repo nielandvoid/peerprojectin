@@ -266,7 +266,17 @@ body.scrollable-page {
   margin-bottom: 12px;
 }
 
+.guide-content blockquote {
+  border-left: 2px solid #333;
+  padding-left: 14px;
+  margin: 12px 0 12px 14px;
+  color: #717175;
+}
+
 .sample-message-box blockquote {
+  border-left: none;
+  padding-left: 0;
+  margin: 0;
   font-size: 1.05rem;
   color: #717175;
   line-height: 1.6;
