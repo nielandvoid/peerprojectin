@@ -297,3 +297,7 @@ body.scrollable-page {
   padding-top: 32px;
   text-align: center;
 }
+
+.highlight-text {
+  font-weight: 700;
+}
