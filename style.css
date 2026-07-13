@@ -287,3 +287,11 @@ body.scrollable-page {
   padding-top: 32px;
   text-align: center;
 }
+
+.title-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 22%;
+  vertical-align: middle;
+  margin-right: 14px;
+}
