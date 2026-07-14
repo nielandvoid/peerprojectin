@@ -36,7 +36,7 @@ body {
 .development-tag {
   font-size: 0.95rem;
   color: #7f7f85;
-  margin-bottom: -60px;
+  margin-bottom: -40px;
   letter-spacing: 0.05em;
   z-index: 10;
   position: relative;
@@ -83,12 +83,12 @@ header {
   font-size: 0.95rem;
   color: #7f7f85;
   max-width: 480px;
-  margin: 0 auto 32px;
+  margin: 0 auto 40px;
   line-height: 1.6;
 }
 
 footer {
-  margin-top: 64px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 16px;
