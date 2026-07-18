@@ -10,13 +10,12 @@ body {
   font-family: 'Geist', sans-serif;
   background-color: #1e1e1e;
   color: #d3d3d3;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
   min-height: 100dvh;
   margin: 0;
-  padding: 40px 0;
-  overflow-y: auto;
+  padding: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -27,9 +26,8 @@ body {
   align-items: center;
   max-width: 900px;
   width: 100%;
-  margin: auto;
   text-align: center;
-  padding: 0 24px;
+  padding: 60px 24px;
 }
 
 .development-tag {
