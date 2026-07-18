@@ -6,7 +6,12 @@
   padding: 0;
 }
 
+html {
+  overflow-y: auto !important;
+}
+
 body {
+  overflow-y: auto !important;
   font-family: 'Geist', sans-serif;
   background-color: #1e1e1e;
   color: #d3d3d3;
