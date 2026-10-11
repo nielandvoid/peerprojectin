@@ -107,13 +107,13 @@ const RESOURCE_DATA = [
   },
   {
     "id": "nta-iit-pal-lectures",
-    "group": "jee-neet-pastpapers",
+    "group": "physics-jee-neet-lectures",
     "title": "NTA - Free video lectures (IIT-PAL)",
     "url": "https://nta.ac.in/LecturesContent",
     "tags": [
       "free"
     ],
-    "note": "NTA's own free lectures for JEE Main and NEET-UG by IIT professors and subject experts - one YouTube channel each for physics, chemistry, maths and biology. NTA notes they are for clearing concepts, not a hint at what will be asked."
+    "note": "NTA's own free lectures for JEE Main and NEET-UG, taught by IIT professors and subject experts, with one YouTube channel each for physics, chemistry, maths and biology. NTA says they are there to clear concepts and give no hint of what will be asked."
   },
   {
     "id": "marksapp",
@@ -495,7 +495,7 @@ const RESOURCE_DATA = [
     "tags": [
       "free"
     ],
-    "note": "Question-by-question commentary on JEE maths papers going all the way back to 2003, by the author of <em>Educative JEE Mathematics</em>. It looks past the answer to what each question is really testing. The blog layout is dated; the content is not."
+    "note": "Question-by-question commentary on JEE maths papers going back to 2003, by the author of <em>Educative JEE Mathematics</em>. It explains what each question is really testing, beyond the answer. The blog looks dated. The content is still good."
   },
   {
     "id": "maths-zeitz",
@@ -697,7 +697,7 @@ const RESOURCE_DATA = [
     "tags": [
       "free"
     ],
-    "note": "HBCSE's own list of the books it suggests for the INChO theory papers, sorted by branch - physical, organic, inorganic, analytical, biochemistry and general chemistry - plus references for the practical exam. Straight from the people who set the paper."
+    "note": "HBCSE's own list of books for the INChO theory papers, sorted by branch (physical, organic, inorganic, analytical, biochemistry, general), plus references for the practical exam. It comes from the people who set the paper."
   },
   {
     "id": "chem-clayden",
@@ -748,6 +748,62 @@ const RESOURCE_DATA = [
     "note": "The standard physical chemistry problem book for JEE and NEET alike."
   },
   {
+    "id": "chem-vk-jaiswal",
+    "group": "chemistry-jee-neet-books",
+    "title": "V.K. Jaiswal - Problems in Inorganic Chemistry",
+    "url": null,
+    "tags": [],
+    "note": "A problem book for inorganic chemistry, published in separate JEE and NEET editions, so buy the one for your exam. Do it after NCERT, since inorganic questions lean on it."
+  },
+  {
+    "id": "chem-iteachchem-videos",
+    "group": "chemistry-jee-neet-lectures",
+    "title": "iTeachChem video library",
+    "url": "https://iteachchem.github.io/iteachchem-videos/",
+    "tags": ["free"],
+    "note": "Chemistry videos for JEE Main, JEE Advanced and NEET by Ashish Shekhar, arranged by chapter: lectures, NCERT, exemplar, PYQs and revision."
+  },
+  {
+    "id": "chem-iteachchem-doubts",
+    "group": "chemistry-jee-neet-lectures",
+    "title": "iTeachChem student doubts",
+    "url": "https://iteachchem.github.io/iteachchem-doubts/",
+    "tags": ["free"],
+    "note": "A searchable archive of 4,400+ chemistry, physics, maths and biology doubts, asked and answered on the iTeachChem Discord and tagged by chapter. Search it before you ask."
+  },
+  {
+    "id": "khan-ncert-physics",
+    "group": "khan-ncert-physics",
+    "title": "Khan Academy - NCERT Physics",
+    "url": null,
+    "tags": ["free"],
+    "note": "Free video lessons and practice that follow the NCERT chapters: <a href=\"https://www.khanacademy.org/science/in-in-class11th-physics\" target=\"_blank\" rel=\"noopener\">Class 11</a> and <a href=\"https://www.khanacademy.org/science/in-in-class-12th-physics-india\" target=\"_blank\" rel=\"noopener\">Class 12</a>."
+  },
+  {
+    "id": "khan-ncert-chemistry",
+    "group": "khan-ncert-chemistry",
+    "title": "Khan Academy - NCERT Chemistry",
+    "url": null,
+    "tags": ["free"],
+    "note": "Free video lessons and practice that follow the NCERT chapters: <a href=\"https://www.khanacademy.org/science/class-11-chemistry-india\" target=\"_blank\" rel=\"noopener\">Class 11</a> and <a href=\"https://www.khanacademy.org/science/class-12-chemistry-india\" target=\"_blank\" rel=\"noopener\">Class 12</a>."
+  },
+  {
+    "id": "khan-ncert-maths",
+    "group": "khan-ncert-maths",
+    "title": "Khan Academy - NCERT Maths",
+    "url": null,
+    "tags": ["free"],
+    "note": "Free video lessons and practice that follow the NCERT chapters: <a href=\"https://www.khanacademy.org/math/ncert-class-11\" target=\"_blank\" rel=\"noopener\">Class 11</a> and <a href=\"https://www.khanacademy.org/math/ncert-class-12\" target=\"_blank\" rel=\"noopener\">Class 12</a>."
+  },
+  {
+    "id": "khan-ncert-biology",
+    "group": "khan-ncert-biology",
+    "title": "Khan Academy - NCERT Biology",
+    "url": null,
+    "tags": ["free"],
+    "note": "Free video lessons and practice that follow the NCERT chapters: <a href=\"https://www.khanacademy.org/science/in-in-class-11-biology-india\" target=\"_blank\" rel=\"noopener\">Class 11</a> and <a href=\"https://www.khanacademy.org/science/in-in-class-12-biology-india\" target=\"_blank\" rel=\"noopener\">Class 12</a>."
+  },
+  {
     "id": "chem-rohit-agarwal",
     "group": "chemistry-jee-neet-lectures",
     "title": "Rohit Agarwal - Organic Chemistry",
@@ -787,7 +843,7 @@ const RESOURCE_DATA = [
     "tags": [
       "free"
     ],
-    "note": "Organic chemistry for JEE and NEET on YouTube. Recommended by our resident chemistry educator for the organic side specifically."
+    "note": "Organic chemistry for JEE and NEET on YouTube, recommended by iTeachChem for the organic side."
   },
   {
     "id": "chem-organic-chemistry-tutor",
@@ -797,7 +853,7 @@ const RESOURCE_DATA = [
     "tags": [
       "free"
     ],
-    "note": "Short, single-topic explainers across chemistry, physics and maths. Not JEE-specific, but very good for clearing up one concept quickly - search the channel for the topic rather than browsing it."
+    "note": "Short single-topic explainers across chemistry, physics and maths. Not JEE-specific, but good for clearing up one concept fast. Search the channel for the topic."
   },
   {
     "id": "chem-nsec",
@@ -886,6 +942,22 @@ const RESOURCE_DATA = [
     "url": null,
     "tags": [],
     "note": "Essentially the core book, for NEET as much as for olympiad - described across essentially every resource list as the closest thing to a required text. Any edition from the ninth onwards is fine - do not pay a premium for the latest. Read after NCERT, not instead of it."
+  },
+  {
+    "id": "bio-mtg-fingertips",
+    "group": "biology-neet-books",
+    "title": "MTG - Objective NCERT at your Fingertips (Biology)",
+    "url": null,
+    "tags": [],
+    "note": "Turns NCERT Biology into MCQs, line by line. Use it after you have read NCERT itself, to check what you actually retained."
+  },
+  {
+    "id": "bio-dr-ali",
+    "group": "biology-neet-books",
+    "title": "Dr. Ali - Objective Biology",
+    "url": null,
+    "tags": [],
+    "note": "A large bank of NCERT-based MCQs, including assertion-reason questions, sold in two volumes. Practice for after the reading is done, not a first read."
   },
   {
     "id": "bio-alberts",
