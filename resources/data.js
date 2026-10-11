@@ -758,7 +758,7 @@ const RESOURCE_DATA = [
   {
     "id": "chem-iteachchem-videos",
     "group": "chemistry-jee-neet-lectures",
-    "title": "iTeachChem video library",
+    "title": "iTeachChem's Video Library",
     "url": "https://iteachchem.github.io/iteachchem-videos/",
     "tags": ["free"],
     "note": "Chemistry videos for JEE Main, JEE Advanced and NEET by Ashish Shekhar, arranged by chapter: lectures, NCERT, exemplar, PYQs and revision."
@@ -766,7 +766,7 @@ const RESOURCE_DATA = [
   {
     "id": "chem-iteachchem-doubts",
     "group": "chemistry-jee-neet-lectures",
-    "title": "iTeachChem student doubts",
+    "title": "iTeachChem's Student Doubts",
     "url": "https://iteachchem.github.io/iteachchem-doubts/",
     "tags": ["free"],
     "note": "A searchable archive of 4,400+ chemistry, physics, maths and biology doubts, asked and answered on the iTeachChem Discord and tagged by chapter. Search it before you ask."
