@@ -48,6 +48,16 @@ const RESOURCE_DATA = [
     "note": "Solves JEE Advanced problems live on stream, wrong turns and all - not a scripted, error-free solution video. Best once the basics are solid enough to follow the mistakes as they happen."
   },
   {
+    "id": "physics-vvn-acharya",
+    "group": "physics-jee-neet-lectures",
+    "title": "V V N Acharya (ACP Sir) - Physics",
+    "url": "https://www.youtube.com/@vvnacharyaacpsir6638",
+    "tags": [
+      "free"
+    ],
+    "note": "IIT JEE physics on YouTube, pitched at the JEE Advanced end. Best once the basics are solid."
+  },
+  {
     "id": "boards-ncert-exemplar",
     "group": "boards-ncert-exemplar",
     "title": "NCERT Exemplar Problems",
@@ -94,6 +104,16 @@ const RESOURCE_DATA = [
     "url": "https://jeeadv.ac.in/archive.html",
     "tags": ["free"],
     "note": "Run by whichever IIT is organising JEE Advanced that year (IIT Roorkee currently). Full archive back to 2007, plus AAT (Architecture Aptitude Test) papers separately."
+  },
+  {
+    "id": "nta-iit-pal-lectures",
+    "group": "jee-neet-pastpapers",
+    "title": "NTA - Free video lectures (IIT-PAL)",
+    "url": "https://nta.ac.in/LecturesContent",
+    "tags": [
+      "free"
+    ],
+    "note": "NTA's own free lectures for JEE Main and NEET-UG by IIT professors and subject experts - one YouTube channel each for physics, chemistry, maths and biology. NTA notes they are for clearing concepts, not a hint at what will be asked."
   },
   {
     "id": "marksapp",
@@ -468,6 +488,16 @@ const RESOURCE_DATA = [
     "note": "An older series built specifically for rebuilding the foundation, not the advanced content above - start here if the advanced lectures feel like a stretch."
   },
   {
+    "id": "maths-kd-joshi-commentary",
+    "group": "maths-jee-lectures",
+    "title": "Prof K. D. Joshi - Math JEE Commentary",
+    "url": "https://mathjeecommentary.blogspot.com/",
+    "tags": [
+      "free"
+    ],
+    "note": "Question-by-question commentary on JEE maths papers going all the way back to 2003, by the author of <em>Educative JEE Mathematics</em>. It looks past the answer to what each question is really testing. The blog layout is dated; the content is not."
+  },
+  {
     "id": "maths-zeitz",
     "group": "maths-olympiad-books-start",
     "title": "Paul Zeitz - The Art and Craft of Problem Solving",
@@ -660,6 +690,16 @@ const RESOURCE_DATA = [
     "note": "Note the title: <em>Chemical Principles</em>, not <em>Chemistry</em>. The latter is considerably easier and a very common accidental purchase."
   },
   {
+    "id": "chem-hbcse-inchO-references",
+    "group": "chemistry-olympiad-books-core",
+    "title": "HBCSE - INChO reference book list",
+    "url": "https://library.hbcse.tifr.res.in/olympiads/subjects/chemistry/references/",
+    "tags": [
+      "free"
+    ],
+    "note": "HBCSE's own list of the books it suggests for the INChO theory papers, sorted by branch - physical, organic, inorganic, analytical, biochemistry and general chemistry - plus references for the practical exam. Straight from the people who set the paper."
+  },
+  {
     "id": "chem-clayden",
     "group": "chemistry-olympiad-books-advanced",
     "title": "Clayden - Organic Chemistry",
@@ -738,6 +778,26 @@ const RESOURCE_DATA = [
     "url": "https://www.youtube.com/@voraclasses",
     "tags": ["free"],
     "note": "Goes through NCERT chemistry line by line rather than summarising it - the closest thing to sitting next to someone who has actually read the textbook. Her other lectures on the same channel are worth the watch too."
+  },
+  {
+    "id": "chem-cv-kalyan-kumar",
+    "group": "chemistry-jee-neet-lectures",
+    "title": "C.V. Kalyan Kumar - Organic Chemistry",
+    "url": "https://www.youtube.com/@CVKalyanKumar/videos",
+    "tags": [
+      "free"
+    ],
+    "note": "Organic chemistry for JEE and NEET on YouTube. Recommended by our resident chemistry educator for the organic side specifically."
+  },
+  {
+    "id": "chem-organic-chemistry-tutor",
+    "group": "chemistry-jee-neet-lectures",
+    "title": "The Organic Chemistry Tutor",
+    "url": "https://www.youtube.com/@TheOrganicChemistryTutor",
+    "tags": [
+      "free"
+    ],
+    "note": "Short, single-topic explainers across chemistry, physics and maths. Not JEE-specific, but very good for clearing up one concept quickly - search the channel for the topic rather than browsing it."
   },
   {
     "id": "chem-nsec",
