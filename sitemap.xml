@@ -76,4 +76,8 @@
     <loc>https://peerproject.in/support</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://peerproject.in/extracurriculars</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
