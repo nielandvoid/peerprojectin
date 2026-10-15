@@ -1,11 +1,27 @@
 const RESOURCE_DATA = [
   {
-    "id": "boards-nootan",
+    "id": "boards-cisce",
     "group": "boards-icse-isc",
-    "title": "Nootan Textbooks (Nageen Prakashan)",
+    "title": "CISCE (official site)",
+    "url": "https://cisce.org/",
+    "tags": ["free"],
+    "note": "The board itself, and where the syllabus, specimen papers and past papers come from. Check the address says cisce.org. Search engines often send people to cisceboard.org instead, which is not updated any more. The pages are long and cluttered, so scroll. Open Resources in the top menu, then ICSE Publications or ISC Publications, and look for \"Regulations and Syllabuses\" for your exam year (the page leads with future years, so pick the one you will sit). The ICSE page also has Previous Year Question Papers and Specimen Question Papers further down, under the resource material list. The ISC page repeats the same \"Primer on Robotics and Artificial Intelligence\" block many times and mixes in some ICSE files, and we could not find a previous-papers section on it."
+  },
+  {
+    "id": "boards-icse-practice",
+    "group": "boards-icse-isc",
+    "title": "What to practise from, in order",
     "url": null,
     "tags": [],
-    "note": "The textbooks most ISC students are actually handed, alongside Selina - across Physics, Chemistry, Biology and Maths (Kumar &amp; Mittal for Physics, H.C. Srivastava for Chemistry). Closely matched to the ISC syllabus and exam pattern, which is exactly what the free CBSE-first material online tends to miss."
+    "note": "Start with the official syllabus, so you know what is actually examined. Then past year papers, then the specimen papers on cisce.org (a few exist for Classes IX and XI as well, which schools tend to pick questions from). Add competency-based questions to that: ICSE and ISC have been moving away from rote recall, so practise those along with the direct-recall ones."
+  },
+  {
+    "id": "boards-respaper",
+    "group": "boards-icse-isc",
+    "title": "ResPaper",
+    "url": "https://www.respaper.com/",
+    "tags": [],
+    "note": "Student-uploaded ICSE and ISC question papers, including school prelims, which are the closest thing to extra practice papers. Use the ICSE or ISC links in the Trending bar, then pick the class or the Prelims category. Papers are uploaded by users, so check them against the official ones, and we could not confirm whether you need an account or payment to see everything."
   },
   {
     "id": "boards-folger-macbeth",
@@ -14,6 +30,94 @@ const RESOURCE_DATA = [
     "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/",
     "tags": ["free"],
     "note": "The current ISC Shakespeare set text - Acts I &amp; II for Class XI, Acts III-V for Class XII. Full text free from an actual Shakespeare institution, not a content-mill summary site. Use the \"Read\" section on the page, not the essays or teaching resources above it."
+  },
+  {
+    "id": "boards-litcharts-macbeth",
+    "group": "boards-icse-isc",
+    "title": "LitCharts - Macbeth",
+    "url": "https://www.litcharts.com/lit/macbeth",
+    "tags": [],
+    "note": "Act-by-act and scene-by-scene summaries with analysis. Open \"Summary & Analysis\" in the left sidebar and go scene by scene. Use it after you have read the play on Folger, not instead of it. Some extras (PDF downloads, quizzes) are behind a paid plan, which you do not need."
+  },
+  {
+    "id": "boards-coursehero-macbeth",
+    "group": "boards-icse-isc",
+    "title": "Course Hero - Macbeth Study Guide",
+    "url": "https://www.coursehero.com/lit/Macbeth/",
+    "tags": [],
+    "note": "A second set of summaries and character notes, which is useful when the first explanation does not click. Stay on the Study Guide tab and use the contents list on the left. The site pushes you to sign up, but you do not need to for the guide."
+  },
+  {
+    "id": "boards-litcharts-jc",
+    "group": "boards-icse-isc",
+    "title": "LitCharts - Julius Caesar",
+    "url": "https://www.litcharts.com/lit/julius-caesar",
+    "tags": [],
+    "note": "Summaries scene by scene for the ICSE Class X drama text (Acts III to V). Open the guide and use its Summary & Analysis section. PDFs and quizzes are paid extras you do not need."
+  },
+  {
+    "id": "boards-coursehero-jc",
+    "group": "boards-icse-isc",
+    "title": "Course Hero - Julius Caesar Study Guide",
+    "url": "https://www.coursehero.com/lit/Julius-Caesar/",
+    "tags": [],
+    "note": "Scene summaries, themes and character analysis. Use the Study Guide tab and its contents list on the left. The Documents tab holds user-uploaded files, which vary a lot in quality, so skip it."
+  },
+  {
+    "id": "boards-litcharts-telephone",
+    "group": "boards-icse-isc",
+    "title": "LitCharts - Telephone Conversation",
+    "url": "https://www.litcharts.com/poetry/wole-soyinka/telephone-conversation",
+    "tags": [],
+    "note": "An ISC Class XII poem (Wole Soyinka). Read the poem first, then this for the themes and the device-by-device breakdown."
+  },
+  {
+    "id": "boards-litcharts-tithonus",
+    "group": "boards-icse-isc",
+    "title": "LitCharts - Tithonus",
+    "url": "https://www.litcharts.com/poetry/alfred-lord-tennyson/tithonus",
+    "tags": [],
+    "note": "An ISC Class XII poem (Tennyson). Worth reading the myth summary first, since the poem assumes you know it."
+  },
+  {
+    "id": "boards-litcharts-donne",
+    "group": "boards-icse-isc",
+    "title": "LitCharts - Death, be not proud",
+    "url": "https://www.litcharts.com/poetry/john-donne/holy-sonnet-10-death-be-not-proud",
+    "tags": [],
+    "note": "An ISC Class XII poem (Donne), listed on LitCharts as Holy Sonnet 10."
+  },
+  {
+    "id": "boards-coursehero-donne",
+    "group": "boards-icse-isc",
+    "title": "Course Hero - Death Be Not Proud (Donne)",
+    "url": "https://www.coursehero.com/lit/Selected-Poetry-of-John-Donne/death-be-not-proud-summary/",
+    "tags": [],
+    "note": "The summary page inside the Selected Poetry of John Donne guide. Do not open the other Course Hero page with the same title, which is a memoir by John Gunther."
+  },
+  {
+    "id": "boards-litcharts-soft-rains",
+    "group": "boards-icse-isc",
+    "title": "LitCharts - There Will Come Soft Rains",
+    "url": "https://www.litcharts.com/lit/there-will-come-soft-rains",
+    "tags": [],
+    "note": "An ISC Class XII short story (Ray Bradbury). Make sure you open the story, not the Sara Teasdale poem of the same name that LitCharts also lists. Open the guide and use its Summary & Analysis section. PDFs and quizzes are paid extras you do not need."
+  },
+  {
+    "id": "boards-coursehero-soft-rains",
+    "group": "boards-icse-isc",
+    "title": "Course Hero - There Will Come Soft Rains",
+    "url": "https://www.coursehero.com/lit/There-Will-Come-Soft-Rains/",
+    "tags": [],
+    "note": "A second guide to the Bradbury story, with themes and symbols such as the house and the fire. Stay on the Study Guide tab."
+  },
+  {
+    "id": "boards-nootan",
+    "group": "boards-icse-isc",
+    "title": "Nootan Textbooks (Nageen Prakashan)",
+    "url": null,
+    "tags": [],
+    "note": "The textbooks most ISC students are actually handed, alongside Selina - across Physics, Chemistry, Biology and Maths (Kumar &amp; Mittal for Physics, H.C. Srivastava for Chemistry). Closely matched to the ISC syllabus and exam pattern, which is exactly what the free CBSE-first material online tends to miss."
   },
   {
     "id": "physics-hc-verma",
